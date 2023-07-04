@@ -12,68 +12,162 @@
 <body>
 
 <!-- menu -->  
-<nav class="navbar navbar-expand-lg navbar-dark " id="mainNav">
-  <div class="container">               
-      <img src="picture/logo_KV.png" alt="..." class="obr" />
-        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        </button>
-    <div class="container collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav  ms-auto py-4 py-lg-0">
-        <li class="nav-item"><a class="nav-link " href="index.html">me</a></li>
-        <li class="nav-item dropdown ">
-        <a class="nav-link dropdown-toggle " href="portfolio.html" role="button" data-bs-toggle="dropdown">Portfolio</a>
-          <ul class="dropdown-menu  bg-dark ">
-            <li><a class="dropdown-item   text_yel" href="portfolio.html">Portfolio-uvod</a></li>
-            <li><a class="dropdown-item text_yel" href="Programování.html">Programing</a></li>
-            <li><a class="dropdown-item  text_yel" href="grafika.html">Vektorová grafika</a></li>
-            <li><a class="dropdown-item text_yel" href="model.html">3D modely</a></li>
-            </ul>
-        </li>
-        <li class="nav-item"><a class="nav-link  " href="BUT.html">BUT</a></li>
-      </ul>
-    </div>
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <div class="container">
+      <a class="navbar-brand" href="#page-top"><img class="obr" src="picture/logo_KV.png" alt="..." /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars ms-1"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+              <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+              <li class="nav-item"><a class="nav-link" href="#BUT">BUT</a></li>
+          </ul>
+      </div>
   </div>
 </nav>
 
 <div class="container mt-3">
-  <h1>1. ročník FIT VUT Brno 2022/2023</h1>
+  <div class="row mt-2">
+    <h1>1. ročník FIT VUT Brno 2022/2023</h1>
   <p>Předměty v zímním a letním semestru 1. ročníku bakalářského studia na FIT VUT Brno </p>
-  <div class="row">
-    <div class="col-lg-3 p-3 text-black">
-      <div class="container mt-3">
-        <h4 class="bg-dark p-2 text-white">IUS</h4>
-          <p>Úvod do softwarového inženýrství</p> 
-          <a href="ius.html" class="btn btn-dark">See Profile</a>
-    </div> 
+    <div class="col-xl-3 p-1">
+      <div class="card">
+     <a href='Programování.html'> <img class="card-img-top" src="picture/ius.jpg" alt="Card image">    </a>
+      <div class="card-footer">
+      <h4 class="card-title  ">IUS</h4>
+      <p class="card-text "></p>
+      </div>
+      </div>
     </div>
-    <div class="col-lg-3 p-3 bg-dark text-white">
-      <div class="container mt-3">
-        <h4 class="bg-light p-2 text-dark">IOS</h4>
-          <p>Operační systémy</p> 
-          <a href="ios.html" class="btn btn-light">See Profile</a>
-    </div> 
+    <div class="col-xl-3 p-1">
+      <div class="card">
+     <a href='grafika.html'>  <img class="card-img-top " src="picture/ios.jpg" alt="Card image">  </a>
+      <div class="card-footer">
+      <h4 class="card-title ">IOS</h4>
+      <p class="card-text "></p>
+      </div>
+      </div>
     </div>
-    <div class="col-lg-3 p-3 text-black">
-      <div class="container mt-3">
-        <h4 class="bg-dark p-2 text-white">IZLO</h4>
-          <p>Základy logiky pro informatiky</p> 
-          <a href="izlo.html" class="btn btn-dark">See Profile</a>
-      </div> 
+    <div class="col-xl-3 p-1">
+      <div class="card">
+        <a href='izlo.html'>
+      <img class="card-img-top mod" src="picture/izlo.png" alt="Card image"></a>
+      <div class="card-footer">
+      <h4 class="card-title ">IZLO</h4>
+      <p class="card-text "></p>
+      </div>
+      </div>                                            
     </div>
-    <div class="col-lg-3 p-3 bg-dark text-white">.col</div>
+    <div class="col-xl-3 p-1">
+      <div class="card">
+        <a href='model.html'>
+      <img class="card-img-top mod" src="img/3.jpg" alt="Card image"></a>
+      <div class="card-footer">
+      <h4 class="card-title ">..</h4>
+      <p class="card-text "></p>
+      </div>
+      </div>                                            
+    </div>
   </div>
-</div>
 
+  <div class="row mt-4">
+    <h1>2. ročník FIT VUT Brno 2022/2023</h1>
+    <p>Předměty v zímním a letním semestru 2. ročníku bakalářského studia na FIT VUT Brno </p>
+    <div class="col-xl-3 p-1">
+      <div class="card">
+     <a href='Programování.html'> <img class="card-img-top prog" src="img/2.jpg" alt="Card image">    </a>
+      <div class="card-footer">
+      <h4 class="card-title text_yellow ">Programování</h4>
+      <p class="card-text text_yellow">HTML</p>
+      </div>
+      </div>
+    </div>
+    <div class="col-xl-3 p-3">
+      <div class="card">
+     <a href='grafika.html'>  <img class="card-img-top vek" src="img/1.jpg" alt="Card image">  </a>
+      <div class="card-footer">
+      <h4 class="card-title text_orange">Vektorová grafika</h4>
+      <p class="card-text text_orange">Ilustrator</p>
+      </div>
+      </div>
+    </div>
+    <div class="col-xl-3 p-3">
+      <div class="card">
+        <a href='model.html'>
+      <img class="card-img-top mod" src="img/3.jpg" alt="Card image"></a>
+      <div class="card-footer">
+      <h4 class="card-title text_yellow">3D modely</h4>
+      <p class="card-text text_yellow">Inventor</p>
+      </div>
+      </div>                                            
+    </div>
+    <div class="col-xl-3 p-3">
+      <div class="card">
+        <a href='model.html'>
+      <img class="card-img-top mod" src="img/3.jpg" alt="Card image"></a>
+      <div class="card-footer">
+      <h4 class="card-title text_yellow">3D modely</h4>
+      <p class="card-text text_yellow">Inventor</p>
+      </div>
+      </div>                                            
+    </div>
+  </div>
 
+  <div class="row mt-4">
+    <h1>3. ročník FIT VUT Brno 2022/2023</h1>
+    <p>Předměty v zímním a letním semestru 3. ročníku bakalářského studia na FIT VUT Brno </p>
+    <div class="col-xl-3 p-1">
+      <div class="card">
+     <a href='Programování.html'> <img class="card-img-top prog" src="img/2.jpg" alt="Card image">    </a>
+      <div class="card-footer">
+      <h4 class="card-title text_yellow ">Programování</h4>
+      <p class="card-text text_yellow">HTML</p>
+      </div>
+      </div>
+    </div>
+    <div class="col-xl-3 p-3">
+      <div class="card">
+     <a href='grafika.html'>  <img class="card-img-top vek" src="img/1.jpg" alt="Card image">  </a>
+      <div class="card-footer">
+      <h4 class="card-title text_orange">Vektorová grafika</h4>
+      <p class="card-text text_orange">Ilustrator</p>
+      </div>
+      </div>
+    </div>
+    <div class="col-xl-3 p-3">
+      <div class="card">
+        <a href='model.html'>
+      <img class="card-img-top mod" src="img/3.jpg" alt="Card image"></a>
+      <div class="card-footer">
+      <h4 class="card-title text_yellow">3D modely</h4>
+      <p class="card-text text_yellow">Inventor</p>
+      </div>
+      </div>                                            
+    </div>
+    <div class="col-xl-3 p-3">
+      <div class="card">
+        <a href='model.html'>
+      <img class="card-img-top mod" src="img/3.jpg" alt="Card image"></a>
+      <div class="card-footer">
+      <h4 class="card-title text_yellow">3D modely</h4>
+      <p class="card-text text_yellow">Inventor</p>
+      </div>
+      </div>                                            
+    </div>
+  </div>
 
+  </div>
 
 <!-- dolni menu -->  
 <nav class="navbar navbar-expand-lg navbar-dark mt-3" id="mainNav">
   <div class='container p-2'>
-    <div class="col-lg-4 text-lg-start">Copyright &copy; MY Website 2021
+    <div class="col-lg-4 text-lg-start link-yellow">Copyright &copy; MY Website 2021
     </div>                
-      <div class="col-lg-4 my-3 my-lg-0 text-lg-center">
+      <div class="col-lg-4 my-3 my-lg-0 text-lg-center link-yellow">
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
       <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
       </svg> 
