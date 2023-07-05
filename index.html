@@ -8,93 +8,105 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" />
+    
   <link href="css/style.css" rel="stylesheet" />
-
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
 
-<!-- menu -->  
-<!-- Navigation-->
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-  <div class="container">
-      <a class="navbar-brand" href="#page-top"><img class="obr" src="picture/logo_KV.png" alt="..." /></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fas fa-bars ms-1"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-              <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-              <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-              <li class="nav-item"><a class="nav-link" href="BUT.html">BUT</a></li>
-          </ul>
-      </div>
-  </div>
-</nav>
+  <!-- menu -->  
 
-<!-- Carousel -->
-<div id="demo" class="carousel slide" data-bs-ride="carousel">
-  <!-- The slideshow/carousel -->
-  <div class="carousel-inner">
-    <div class="carousel-item active ">
-      <img src="picture/5.jpg" alt="Los Angeles" class="d-block mx-auto not " >
-      <div class="carousel-caption text_yellow ">
-        <header class="masthead">
-          <div class="container">
-              <div class="masthead-subheading">Welcome To My Studio!</div>
-              <div class="masthead-heading text-uppercase">Nice To Meet You</div>
-              <a class="btn btn-xl " href="#about">Tell Me More</a>
-          </div>
-      </header>      
-      </div>  
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="#page-top"><img class="obr" src="picture/logo_KV.png" alt="..." /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars ms-1"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#but">BUT</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active ">
+        <img src="picture/5.jpg" alt="Los Angeles" class="d-block mx-auto not " >
+        <div class="carousel-caption text_yellow ">
+          <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">Welcome To My Studio!</div>
+                <div class="masthead-heading text-uppercase">Nice To Meet You</div>
+                <a class="btn btn-xl " href="#about">Tell Me More</a>
+            </div>
+        </header>      
+        </div>  
+      </div>
     </div>
   </div>
-</div>
 
-<section   class="page-section mt-3 p-2" id="about"> 
-<div class="pt-5">
-  <div class="container p-2">
-      <div class="p-2 karolina">Karolína Virágová </div>
-    
-  <div class="row mt-4">
-      <div class="col-lg-6  p-2 ">
-        <img src="/picture/me.jpg" class="mx-auto d-block imgme"> 
-      </div>
-      <div class="col-lg-6 p-2 text-black">
-        <div class="p-2 ">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p> 
+  <!-- About -->
+  <section class="page-section mt-3 p-2" id="about">
+    <div class="container-xl mt-3">
+      <span class="p-2"><h2 class="karolina">Karolína Virágová <span class="flag-icon flag-icon-cz"></span>      
+      </h2></span>
+      <div class="row mt-4">
+        <div class="col-lg-6  p-2">
+          <img src="/picture/me.jpg" class="mx-auto d-block imgme"> 
+        </div>
+        <div class="col-lg-6 p-2">
+          <div class="p-2 ">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+              laboris nisi ut aliquip ex ea commodo consequat..
+            </p> 
+          </div>
         </div>
       </div>
-    </div> 
-  </div>
+    </div>
+  </section>
 
-  <!-- dovednosti-->
-  <div class="container mt-3 p-1"><h3>Dovednosti</h3></div>
-  <div class="container">
+  <!-- Skills -->
+  <section class="page-section  mt-3 p-2 " id="skills">
+    <div class="container-xl mt-5">
+      <span class="p-2 justify-content-center"><h2>Skills</h2></span>
       <div class="row">
-          <div class="col-lg-3 mt-2 p-2  ">
-              <h6>Pokročilá znalost MS office (word, powerpoint, excel)</h6>
+          <div class="col-lg-3 p-2  ">
+              <h6> <i class='bx bxl-microsoft'></i>Pokročilá znalost MS office (word, powerpoint, excel)</h6>
               <div class="progress">
-                  <div class="progress-bar bg-dark" style="width:100%"></div>
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width:40%">
+                </div>
               </div>
           </div>
           <div class="col-lg-3 mt-2 p-2 ">
               <h6>Pokročilá znalost programu Inventor</h6>
               <div class="progress">
-                  <div class="progress-bar bg-dark" style="width:100%"></div>
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width:40%">
+                </div>
               </div>
           </div>
           <div class="col-lg-3 mt-2 p-2">
               <h6>Pokročilá znalost programu Ilustrator</h6>
               <div class="progress">
-                  <div class="progress-bar bg-dark" style="width:40%"></div>
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width:40%">
+                </div>
               </div>
           </div>
           <div class="col-lg-3 mt-2 p-2">
               <h6>Základní znalost programu Photoshop</h6>
               <div class="progress">
-                  <div class="progress-bar bg-dark" style="width:40%"></div>
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width:40%">
+                </div>
               </div>
           </div>
       </div>
@@ -102,63 +114,260 @@
           <div class="col-lg-3 mt-2 p-2">
               <h6>Základní až pokročilá znalost programovacích jazyků – HTML CSS, JQUERY, PHP, MySQL, C</h6>
               <div class="progress">
-                  <div class="progress-bar bg-dark" style="width:40%"></div>
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width:40%">
+                </div>
               </div>
           </div>
           <div class="col-lg-3 mt-2 p-2">
-              <h6>Anglický jazyk – mírně pokročilá úroveň</h6>
+              <h6><span class="flag-icon flag-icon-gb"></span> Anglický jazyk – mírně pokročilá úroveň</h6>
               <div class="progress">
-                  <div class="progress-bar bg-dark" style="width:40%"></div>
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width:40%"></div>
               </div>
           </div>
           <div class="col-lg-3 mt-2 p-2">
-              <h6>Německý jazyk – mírně pokročilá úroveň</h6>
+              <h6><span class="flag-icon flag-icon-de"></span> Německý jazyk – mírně pokročilá úroveň</h6>
               <div class="progress">
-                  <div class="progress-bar bg-dark" style="width:40%"></div>
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width:40%">
+                </div>
               </div>
           </div>
           <div class="col-lg-3 mt-2 p-2">
-              <h6>Řidičský průkaz skupiny B</h6>
+              <h6><i class='bx bxs-car'></i> Řidičský průkaz skupiny B</h6>
               <div class="progress">
-                  <div class="progress-bar bg-dark" style="width:40%"></div>
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width:40%">
+                </div>
               </div>
           </div>
       </div> 
-  </div>
-</section>
+  </div>  
+  </section>
 
-<section>
-  <div class="container mt-4 p-2 ">
-    <h2>Contact me</h2> 
-      <ul>
-        <li>telephone- 797 606 397</li>
-        <li>email- karolinaviragova4@seznam.cz</li>
-        <li>github- <a href="https://github.com/KarVir" class="text-black">https://github.com/KarVir</a></li>
-      </ul>
-    </p> 
-  </div>
-</section>
+  <!-- Portfolio-->
+  <section class="page-section  mt-3 p-2" id="portfolio">
+      <div class="container-xl mt-5">
+        <span class="p-2 justify-content-center"><h2>Portfolio</h2></span>
+        <div class="row mt-2">
+          
+          <div class="col-xl-3 p-1">
+            <div class="card">
+              <a href='Programování.html'> <img class="card-img-top" src="picture/ius.jpg" alt="Card image">    </a>
+              <div class="card-footer">
+                <h4 class="card-title  ">IUS</h4>
+                <p class="card-text "></p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-xl-3 p-1">
+            <div class="card">
+              <a href='grafika.html'>  <img class="card-img-top " src="picture/ios.jpg" alt="Card image">  </a>
+              <div class="card-footer">
+                <h4 class="card-title ">IOS</h4>
+                <p class="card-text "></p>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-xl-3 p-1">
+            <div class="card">
+              <a href='izlo.html'>
+              <img class="card-img-top mod" src="picture/izlo.png" alt="Card image"></a>
+              <div class="card-footer">
+                <h4 class="card-title ">IZLO</h4>
+                <p class="card-text "></p>
+              </div>
+            </div>                                            
+          </div>
 
-<!-- dolni menu -->  
-<nav class="navbar navbar-expand-lg navbar-dark mt-3" id="mainNav">
-  <div class='container p-2'>
-    <div class="col-lg-4 text-lg-start link-yellow">Copyright &copy; MY Website 2021
-    </div>                
-      <div class="col-lg-4 my-3 my-lg-0 text-lg-center link-yellow">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-      <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-      </svg> 
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
-      <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
-      </svg>      
+          <div class="col-xl-3 p-1">
+            <div class="card">
+              <a href='model.html'>
+              <img class="card-img-top mod" src="img/3.jpg" alt="Card image"></a>
+              <div class="card-footer">
+                <h4 class="card-title ">..</h4>
+                <p class="card-text "></p>
+              </div>
+            </div>                                            
+          </div>
+        </div>
+
+        <div class="row mt-2">
+          
+          <div class="col-xl-3 p-1">
+            <div class="card">
+              <a href='Programování.html'> <img class="card-img-top" src="picture/ius.jpg" alt="Card image">    </a>
+              <div class="card-footer">
+                <h4 class="card-title  ">IUS</h4>
+                <p class="card-text "></p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-xl-3 p-1">
+            <div class="card">
+              <a href='grafika.html'>  <img class="card-img-top " src="picture/ios.jpg" alt="Card image">  </a>
+              <div class="card-footer">
+                <h4 class="card-title ">IOS</h4>
+                <p class="card-text "></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 p-1">
+            <div class="card">
+              <a href='izlo.html'>
+              <img class="card-img-top mod" src="picture/izlo.png" alt="Card image"></a>
+              <div class="card-footer">
+                <h4 class="card-title ">IZLO</h4>
+                <p class="card-text "></p>
+              </div>
+            </div>                                            
+          </div>
+
+          <div class="col-xl-3 p-1">
+            <div class="card">
+              <a href='model.html'>
+              <img class="card-img-top mod" src="img/3.jpg" alt="Card image"></a>
+              <div class="card-footer">
+                <h4 class="card-title ">..</h4>
+                <p class="card-text "></p>
+              </div>
+            </div>                                            
+          </div>
+        </div>
+
       </div>
-    <div class="col-lg-4 text-lg-end">
-    <a class="link-yellow text-decoration-none" href="#!">Privacy Policy</a>
-    <a class="link-yellow text-decoration-none" href="#!">Terms of Use</a>
-    </div>
-  </div>
-</nav>   
+  </section>
 
+    <!-- BUT-->
+    <section class="page-section  mt-3 p-2" id="but">
+      <div class="container-xl mt-5">
+        <span class="p-2 justify-content-center"><h2> Faculty of Information Technology BUT</h2></span>
+        <div class="row mt-2">
+          
+          <div class="col-xl-3 p-1">
+            <div class="card">
+              <a href='Programování.html'> <img class="card-img-top" src="picture/ius.jpg" alt="Card image">    </a>
+              <div class="card-footer">
+                <h4 class="card-title  ">IUS</h4>
+                <p class="card-text "></p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-xl-3 p-1">
+            <div class="card">
+              <a href='grafika.html'>  <img class="card-img-top " src="picture/ios.jpg" alt="Card image">  </a>
+              <div class="card-footer">
+                <h4 class="card-title ">IOS</h4>
+                <p class="card-text "></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 p-1">
+            <div class="card">
+              <a href='izlo.html'>
+              <img class="card-img-top mod" src="picture/izlo.png" alt="Card image"></a>
+              <div class="card-footer">
+                <h4 class="card-title ">IZLO</h4>
+                <p class="card-text "></p>
+              </div>
+            </div>                                            
+          </div>
+
+          <div class="col-xl-3 p-1">
+            <div class="card">
+              <a href='model.html'>
+              <img class="card-img-top mod" src="img/3.jpg" alt="Card image"></a>
+              <div class="card-footer">
+                <h4 class="card-title ">..</h4>
+                <p class="card-text "></p>
+              </div>
+            </div>                                            
+          </div>
+        </div>
+
+        <div class="row mt-2">
+          
+          <div class="col-xl-3 p-1">
+            <div class="card">
+              <a href='Programování.html'> <img class="card-img-top" src="picture/ius.jpg" alt="Card image">    </a>
+              <div class="card-footer">
+                <h4 class="card-title  ">IUS</h4>
+                <p class="card-text "></p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-xl-3 p-1">
+            <div class="card">
+              <a href='grafika.html'>  <img class="card-img-top " src="picture/ios.jpg" alt="Card image">  </a>
+              <div class="card-footer">
+                <h4 class="card-title ">IOS</h4>
+                <p class="card-text "></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 p-1">
+            <div class="card">
+              <a href='izlo.html'>
+              <img class="card-img-top mod" src="picture/izlo.png" alt="Card image"></a>
+              <div class="card-footer">
+                <h4 class="card-title ">IZLO</h4>
+                <p class="card-text "></p>
+              </div>
+            </div>                                            
+          </div>
+
+          <div class="col-xl-3 p-1">
+            <div class="card">
+              <a href='model.html'>
+              <img class="card-img-top mod" src="img/3.jpg" alt="Card image"></a>
+              <div class="card-footer">
+                <h4 class="card-title ">..</h4>
+                <p class="card-text "></p>
+              </div>
+            </div>                                            
+          </div>
+        </div>
+
+      </div>
+  </section>
+
+   <!-- Contact-->
+   <section class="page-section mt-3 p-2" id="contact">
+    <div class="container mt-3">
+        <div class="text-light p-2">
+            <h2 class="section-heading  text-center p-2">Contact Me</h2>
+            <ul>
+              <li>telephone- 797 606 397</li>
+              <li>email- karolinaviragova4@seznam.cz, gmail- karolinav089@gmail.com</li>
+              <li>Discord-</li>
+              <li>github- <a href="https://github.com/KarVir" class="link-yellow">https://github.com/KarVir</a></li>
+            </ul>
+        </div>
+  </section>
+
+  <!-- dolni menu -->  
+   <nav class="navbar navbar-expand-lg navbar-dark" id="mainNav">
+    <div class='container p-2'>
+      <div class="col-lg-4 text-lg-start link-yellow">Copyright &copy; MY Website 2021
+      </div>                
+        <div class="col-lg-4 text-lg-center socialmedia">
+          <i class='bx bxl-facebook-circle ' ></i>
+          <i class='bx bxl-messenger '></i>
+          <i class='bx bxl-discord-alt ' ></i>
+        <i class='bx bxl-gmail ' ></i>   
+        <i class='bx bxl-github  ' ></i>
+        <i class='bx bxl-adobe'></i>
+        </div>
+      <div class="col-lg-4 text-lg-end">
+      <a class="link-yellow text-decoration-none" href="#!">Privacy Policy</a>
+      <a class="link-yellow text-decoration-none" href="#!">Terms of Use</a>
+      </div>
+    </div>
+  </nav>  
 </body>
 </html>
