@@ -215,14 +215,15 @@ footer{
 }
 
 
-header.masthead {
+
+.container .masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
 }
 
-header.masthead .masthead-subheading {
+.container .masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
   color:  rgb(242,176,0);
@@ -230,7 +231,8 @@ header.masthead .masthead-subheading {
   margin-bottom: 25px;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-header.masthead .masthead-heading {
+
+.container .masthead .masthead-heading {
   font-size: 3.25rem;
   font-weight: 700;
   color:  rgb(242,80,0);
@@ -239,27 +241,7 @@ header.masthead .masthead-heading {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-@media (min-width: 768px) {
-  header.masthead {
-    padding-top: 17rem;
-    padding-bottom: 12.5rem;
-  }
-  header.masthead .masthead-subheading {
-    font-size: 2.25rem;
-    font-style: italic;
-    line-height: 2.25rem;
-    margin-bottom: 2rem;
-  }
-  header.masthead .masthead-heading {
-    font-size: 4.5rem;
-    font-weight: 700;
-    line-height: 4.5rem;
-    margin-bottom: 4rem;
-  }
-}
-
 .karolina{
-
   color: white;
   font-size: 5rem;
   font-style: italic;
@@ -410,4 +392,206 @@ i {
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+
+
+
+
+
+
+/* Extra small (XS) <576px */
+@media (max-width: 575.98px) {
+  header {
+      width: 100%;
+      height: auto;
+      position: fixed;
+      z-index: 10;
+    }
+  
+    #menu-icon {
+      display: block;
+      background-color: lightgray;
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    }
+  
+    #header-menu {
+      display: none;
+      position: absolute;
+      top: 0%;
+      left: 0;
+      width: 100%;
+      margin-top: 70px;
+      background-color: lightgray;
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    }
+  
+    header .profile-link {
+      content: '';
+      background-image: url('../img/logo_KV.png');
+      border: transparent;
+      top: 15%;
+      left: 20%;
+      width: 150px;
+      height: 50px;
+      position: absolute;
+      border-radius: 0;
+      box-shadow: 0 0 0;
+      z-index: 5;
+    }
+  
+    header .profile-link:hover {
+      top: 5%;
+      width: 175px;
+      height: 75px;
+    }
+  
+    #header-menu.active {
+      display: block;
+    }
+  
+    main {
+      margin-left: 0px;
+    }
+
+    footer{
+      margin-left: 0px;
+    }
+    section{
+      margin: 1rem;
+    }
+}
+
+/* Small (SM) ≥576px */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  header {
+      width: 100%;
+      height: auto;
+      position: fixed;
+      z-index: 10;
+    }
+  
+    #menu-icon {
+      display: block;
+      background-color: lightgray;
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    }
+  
+    #header-menu {
+      display: none;
+      position: absolute;
+      top: 0%;
+      left: 0;
+      width: 100%;
+      margin-top: 70px;
+      background-color: lightgray;
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    }
+  
+    header .profile-link {
+      content: '';
+      background-image: url('../img/logo_KV.png');
+      border: transparent;
+      top: 15%;
+      left: 20%;
+      width: 150px;
+      height: 50px;
+      position: absolute;
+      border-radius: 0;
+      box-shadow: 0 0 0;
+      z-index: 5;
+    }
+  
+    header .profile-link:hover {
+      top: 5%;
+      width: 175px;
+      height: 75px;
+    }
+  
+    #header-menu.active {
+      display: block;
+    }
+  
+    main {
+      margin-left: 0px;
+    }
+
+    footer{
+      margin-left: 0px;
+    }
+    section{
+      margin: 1rem;
+    }
+}
+
+/* Medium (MD) ≥768px */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  header {
+      width: 100%;
+      height: auto;
+      position: fixed;
+      z-index: 10;
+    }
+  
+    #menu-icon {
+      display: block;
+      background-color: lightgray;
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    }
+  
+    #header-menu {
+      display: none;
+      position: absolute;
+      top: 0%;
+      left: 0;
+      width: 100%;
+      margin-top: 70px;
+      background-color: lightgray;
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    }
+  
+    header .profile-link {
+      content: '';
+      background-image: url('../img/logo_KV.png');
+      border: transparent;
+      top: 15%;
+      left: 20%;
+      width: 150px;
+      height: 50px;
+      position: absolute;
+      border-radius: 0;
+      box-shadow: 0 0 0;
+      z-index: 5;
+    }
+  
+    header .profile-link:hover {
+      top: 5%;
+      width: 175px;
+      height: 75px;
+    }
+  
+    #header-menu.active {
+      display: block;
+    }
+  
+    main {
+      margin-left: 0px;
+    }
+
+    footer{
+      margin-left: 0px;
+    }
+    section{
+      margin: 1rem;
+    }
+}
+
+/* Large (LG) ≥992px */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Extra Large (XL) ≥1200px */
+@media (min-width: 1200px) {
+
 }
