@@ -9,32 +9,8 @@
 
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<script>
-    document.getElementById("contactForm").addEventListener("submit", function(event) {
 
-        event.preventDefault();
 
-        const name = document.getElementById("name").value;
-        const email = document.getElementById("email").value;
-        const message = document.getElementById("message").value;
-
-        const subject = encodeURIComponent(
-            "Kontakt z webu – " + name
-        );
-
-        const body = encodeURIComponent(
-            "Jméno: " + name + "\n" +
-            "E-mail: " + email + "\n\n" +
-            "Zpráva:\n" +
-            message
-        );
-
-        window.location.href =
-            "mailto:karolinaviragova4@seznam.cz" +
-            "?subject=" + subject +
-            "&body=" + body;
-    });
-</script>
 <body>
 
 <div class="portfolio">
@@ -54,18 +30,18 @@
 
                 <h1>Karolína Virágová</h1>
 
-                <div class="badges">
+                <!-- <div class="badges">
                     <span>💻 Front-end Developer</span>
                     <span>⌖ Brno, Czech Republic</span>
-                </div>
+                </div> -->
 
             </div>
 
         </div>
 
         <div class="socials">
-            <a href="#">GitHub</a>
-            <a href="#">LinkedIn</a>
+            <a href="https://github.com/KarVir">GitHub</a>
+            <a href="https://www.linkedin.com/in/karol%C3%ADna-vir%C3%A1gov%C3%A1-b721b2313/?skipRedirect=true">LinkedIn</a>
         </div>
 
     </section>
@@ -78,31 +54,22 @@
 
         <div class="project">
             <div class="project-image project-1">
-
                 <span>KaroVir</span>
                 <small>2025</small>
-
             </div>
         </div>
 
 
         <div class="project">
             <div class="project-image project-2">
-
                 <span>Interactive visual editor for teaching webdesign</span>
                 <small>2026</small>
-
             </div>
         </div>
 
 
         <div class="project">
-            <div class="project-image project-3">
-
-                <span>Man, don`t be angry</span>
-                <small>2025</small>
-
-            </div>
+            <div class="project-image project-3"> <iframe src="https://www.youtube.com/embed/9eLk2SHppbE" title="Man, don't be angry" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen> </iframe> <span>Man, don't be angry</span> <small>2025</small> </div>
         </div>
 
     </section>
@@ -113,20 +80,26 @@
 
         <h2>Bio</h2>
 
-       
+      
+        <div class="bio-item">
 
-
-        <div class="bio-info">
-
-            <div>
-                <strong>Education</strong>
-                <span>FIT VUT</span>
+            <div class="bio-header">
+                <strong>2022 - 2026</strong>
+                <span>BRNO, CZECHIA</span>
             </div>
 
-            <div>
-                <strong>Location</strong>
-                <span>Brno, Czech Republic</span>
+            <p>BUT VUT, Fakulty of information technology</p>
+
+        </div>
+
+<div class="bio-item">
+
+            <div class="bio-header">
+                <strong>2018 - 2022</strong>
+                <span>Hodonín, CZECHIA</span>
             </div>
+
+            <p>SŠPU Hodonín</p>
 
         </div>
 
@@ -139,42 +112,10 @@
 
     <h2>Contact</h2>
 
-  <form id="contact-form">
-
-    <label for="name">Name</label>
-
-    <input
-        type="text"
-        id="name"
-        name="name"
-        placeholder="Your name"
-        required
-    >
-
-    <label for="email">Email Address</label>
-
-    <input
-        type="email"
-        id="email"
-        name="email"
-        placeholder="example@mail.com"
-        required
-    >
-
-    <label for="message">Your Message</label>
-
-    <textarea
-        id="message"
-        name="message"
-        placeholder="Write your message..."
-        required
-    ></textarea>
-
-    <button type="submit" id="send-button">
-        Send Message
-    </button>
-
-    <p id="form-status"></p>
+   <div class="contact-info">
+    <p>Phone: 797 606 397</p>
+    <p>Email: karolinaviragova4@seznam.cz</p>
+    </div>
 
 </form>
 
