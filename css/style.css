@@ -588,8 +588,8 @@ footer {
     }
 
       .logo {
+       width: 60px;
        
-        height: 30px;
         object-fit: contain;
     }
 }
