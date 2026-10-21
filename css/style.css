@@ -586,4 +586,10 @@ footer {
         justify-content: flex-start;
         gap: 18px;
     }
+
+      .logo {
+       
+        height: 30px;
+        object-fit: contain;
+    }
 }
